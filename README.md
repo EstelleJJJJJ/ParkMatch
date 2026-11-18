@@ -24,7 +24,7 @@ We join two public sources from the National Park Service on the park code:
   recreation visits per park and month, which we add up by year.
 
 A copy of both, downloaded on 2026-11-05, ships with the package, so you don't need an API key.
-[src/park_match/data/README.md](src/park_match/data/README.md) explains how to refresh it.
+[src/park_matching/data/README.md](src/park_matching/data/README.md) explains how to refresh it.
 
 ## Install
 
@@ -61,7 +61,7 @@ There's a longer example in [examples/find_parks_example.py](examples/find_parks
 ```
 design/              user stories and use cases
 docs/                functional and component specifications
-src/park_match/   the package: data.py loads and joins the data, matcher.py searches and compares
+src/park_matching/   the package: data.py loads and joins the data, matcher.py searches and compares
 test/                tests, run with pytest
 examples/            an example script
 scripts/             build_data.py, only used to refresh the data
