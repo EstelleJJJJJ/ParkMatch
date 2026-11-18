@@ -2,7 +2,7 @@
 
 ## Background
 
-The U.S. National Park System has 475 sites: the well-known national parks, but also
+The National Park Service's data lists 475 sites: the well-known national parks, but also
 monuments, historic sites, seashores, recreation areas and trails. Each one has its own page
 on nps.gov, so finding the few that fit what you like (a state, some activities, certain
 facilities, a budget) means opening a lot of pages.

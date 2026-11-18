@@ -39,7 +39,7 @@ list at the end.
 
 ### Who is the User?
 *   **Persona/Role:** A traveler choosing where to go, for example Ryan (first camping trip) or Natalie (group trip).
-*   **Context:** Most of the stories come down to this. People know what they like to do, but not which of the 475 park sites fit.
+*   **Context:** This is what most of the stories ask for. People know what they like to do, but not which of the 475 park sites fit.
 
 ###  What Do They Want to Do with the Tool?
 *   **Primary Tasks:**
