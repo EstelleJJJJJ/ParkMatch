@@ -1,6 +1,6 @@
-# Park Matching
+# ParkMatch
 
-Park Matching helps people pick which U.S. National Park System sites to visit. You choose what
+ParkMatch helps people pick which U.S. National Park System sites to visit. You choose what
 matters to you (states, activities, facilities, a highest entrance fee, whether you need a
 campground) and it lists the parks that fit, with a short reason for each one. You can also
 look up one park and compare a few side by side.
@@ -31,8 +31,8 @@ A copy of both, downloaded on 2026-11-05, ships with the package, so you don't n
 Python 3.11 or newer.
 
 ```
-git clone https://github.com/EstelleJJJJJ/Park-Matching.git
-cd Park-Matching
+git clone https://github.com/EstelleJJJJJ/ParkMatch.git
+cd ParkMatch
 pip install -e ".[dev]"
 pytest
 ```
@@ -40,10 +40,10 @@ pytest
 ## Example
 
 ```python
-import park_matching
+import park_match
 
-table = park_matching.build_park_table()
-hits = park_matching.find_parks(table, states=["WA"], activities=["Hiking", "Camping"], max_fee=35)
+table = park_match.build_park_table()
+hits = park_match.find_parks(table, states=["WA"], activities=["Hiking", "Camping"], max_fee=35)
 print(hits[["full_name", "match_score", "match_reasons"]].head(3).to_string(index=False))
 ```
 
