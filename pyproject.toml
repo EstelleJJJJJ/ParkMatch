@@ -3,13 +3,13 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "park-matching"
+name = "parkmatch"
 version = "0.1.0"
 description = "Find U.S. National Park System sites that fit what you like, using NPS data."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-authors = [{ name = "Park Matching team" }]
+authors = [{ name = "ParkMatch team" }]
 dependencies = [
     "pandas>=2.2",
 ]
@@ -24,7 +24,7 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [tool.setuptools.package-data]
-park_matching = ["data/*.csv", "data/*.md"]
+parkmatch = ["data/*.csv", "data/*.md"]
 
 [tool.ruff]
 line-length = 100
