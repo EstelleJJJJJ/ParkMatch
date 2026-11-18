@@ -73,14 +73,14 @@ GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
 
 | Name | GitHub | So far | Looks after from now on |
 |---|---|---|---|
-| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories | the matcher (search and compare) and the component specification |
-| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md | the user stories, use cases and functional specification |
-| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories | the data files, the data module and the tests |
-| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package | CI and the project setup (pyproject.toml, README) |
+| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories | [UC4](https://github.com/EstelleJJJJJ/ParkMatch/issues/11): see parks on a map |
+| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md | [UC2](https://github.com/EstelleJJJJJ/ParkMatch/issues/15): look up one park |
+| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories | [UC3](https://github.com/EstelleJJJJJ/ParkMatch/issues/12): compare parks side by side |
+| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package | [UC1](https://github.com/EstelleJJJJJ/ParkMatch/issues/14): find parks that match what I like |
 
-Whoever looks after a part keeps it working, reviews pull requests that change it, and presents
-it in our talks. The map and the web page will get owners after the technology review on
-November 17, where we compare three map libraries.
+From now on each of us looks after one use case: its issue, its code and tests, and its part
+of the docs. We each present our own use case in our talks, look after the shared parts (the
+data, the web page and CI) together, and review each other's pull requests.
 
 ## License
 
