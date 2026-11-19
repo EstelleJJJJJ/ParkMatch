@@ -74,6 +74,14 @@ UC1, finding parks that match what someone likes:
 4. The matcher filters the table, scores each park, calls `explain_match` for each one, and sorts the result.
 5. The web page shows the result. When the user picks a park, it calls `park_summary` (UC2). When they pick a few, it calls `compare_parks` (UC3). The map shows the same result (UC4).
 
+UC3, comparing parks side by side:
+
+1. The web page calls `build_park_table()`.
+2. The data manager reads `parks.csv` and `visits.csv`, joins them on `park_code`, and returns the table.
+3. The user selects two or three parks, and their park codes go to `compare_parks(table, park_codes)`.
+4. The matcher looks up the selected parks and returns a comparison DataFrame showing park type, states, entrance fee, campgrounds, visits, and official link, with one column per park.
+5. The web page displays the comparison with the same fields in the same order for every park. If a park code does not exist, the matcher should identify it, and the web page should let the user correct the selection.
+
 ## Preliminary plan
 
 | Priority | Task | When |
