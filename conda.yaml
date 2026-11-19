@@ -1,0 +1,12 @@
+name: parkmatch
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - matplotlib
+  - numpy>=1.25
+  - pip
+  - setuptools
+  - setuptools_scm>=8.1
+  - pytest-cov
+  - ruff
