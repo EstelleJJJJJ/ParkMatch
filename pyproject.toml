@@ -9,8 +9,14 @@ description = "Find U.S. National Park System sites that fit what you like, usin
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-authors = [{ name = "ParkMatch team" }]
+authors = [
+  {name="Yucheng Jiang", email="jiang6@uw.edu"},
+  {name="Peiyan Xie", email="peiyan898066@uw.edu"},
+  {name="Zitong Ren", email="zitong26@uw.edu"},
+  {name="Yuxia Liang", email="zl1212@uw.edu"},
+]
 dependencies = [
+    "numpy>=1.25",
     "pandas>=2.2",
 ]
 
