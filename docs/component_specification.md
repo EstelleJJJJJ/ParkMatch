@@ -44,8 +44,8 @@ data.
   each, and returns the same parks as a plain table for people who can't use the map.
 - **Inputs:** a DataFrame from `find_parks` or the data manager, with `latitude` and
   `longitude`.
-- **Outputs:** a map object from the library we choose (we are comparing folium, Plotly and
-  pydeck on November 17) and a DataFrame.
+- **Outputs:** a folium map and a DataFrame. We compared folium, Plotly and pydeck for our
+  technology review and picked folium, because a click on a park shows its name and link.
 - **Uses:** the matcher's results.
 - **Side effects:** none.
 
@@ -90,7 +90,7 @@ UC3, comparing parks side by side:
 | 2 | Functional and component specifications | done |
 | 3 | Data files, data manager and matcher, with tests | done |
 | 4 | Continuous integration (ruff and pytest on GitHub Actions) | done |
-| 5 | Technology review: compare map libraries | November 17 |
+| 5 | Technology review: compare map libraries | slides ready, talk date moved |
 | 6 | Map component and its tests | after the review |
 | 7 | Web page | by December 1 |
 | 8 | Clean up the docs and the README | by December 8 |

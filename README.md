@@ -28,14 +28,18 @@ A copy of both, downloaded on 2026-11-05, ships with the package, so you don't n
 
 ## Install
 
-Python 3.11 or newer.
+Python 3.11 or newer. With conda:
 
 ```
 git clone https://github.com/EstelleJJJJJ/ParkMatch.git
 cd ParkMatch
+conda env create -f conda.yaml
+conda activate parkmatch
 pip install -e ".[dev]"
 pytest
 ```
+
+Without conda, skip the two `conda` lines.
 
 ## Example
 
@@ -65,6 +69,7 @@ src/parkmatch/       the package: data.py loads and joins the data, matcher.py s
 test/                tests, run with pytest
 examples/            an example script
 scripts/             build_data.py, only used to refresh the data
+conda.yaml           the conda environment
 ```
 
 GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
@@ -73,10 +78,10 @@ GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
 
 | Name | GitHub | So far | Looks after from now on |
 |---|---|---|---|
-| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories | [UC4](https://github.com/EstelleJJJJJ/ParkMatch/issues/11): see parks on a map |
-| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md | [UC2](https://github.com/EstelleJJJJJ/ParkMatch/issues/15): look up one park |
-| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories | [UC3](https://github.com/EstelleJJJJJ/ParkMatch/issues/12): compare parks side by side |
-| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package | [UC1](https://github.com/EstelleJJJJJ/ParkMatch/issues/14): find parks that match what I like |
+| Yucheng Jiang | @EstelleJJJJJ | repository setup and renaming, user story template, two more user stories, removed duplicate stories, UC4 use case and map component issues | [UC4](https://github.com/EstelleJJJJJ/ParkMatch/issues/11): see parks on a map |
+| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md, UC2 use case issue, README update for the new name | [UC2](https://github.com/EstelleJJJJJ/ParkMatch/issues/15): look up one park |
+| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories, UC3 use case issue, UC3 parts of the component issues and the component spec, authors and dependencies in pyproject.toml, conda.yaml | [UC3](https://github.com/EstelleJJJJJ/ParkMatch/issues/12): compare parks side by side |
+| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package, UC1 use case and first component issues | [UC1](https://github.com/EstelleJJJJJ/ParkMatch/issues/14): find parks that match what I like |
 
 From now on each of us looks after one use case: its issue, its code and tests, and its part
 of the docs. We each present our own use case in our talks, look after the shared parts (the

@@ -5,6 +5,7 @@ dependencies:
   - python>=3.11
   - matplotlib
   - numpy>=1.25
+  - pandas>=2.2
   - pip
   - setuptools
   - setuptools_scm>=8.1

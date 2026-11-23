@@ -19,6 +19,14 @@ dependencies = [
     "numpy>=1.25",
     "pandas>=2.2",
 ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/EstelleJJJJJ/ParkMatch"
+Issues = "https://github.com/EstelleJJJJJ/ParkMatch/issues"
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov", "ruff"]
