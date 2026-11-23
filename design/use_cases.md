@@ -105,7 +105,7 @@ list at the end.
 
 ### Who is the User?
 *   **Persona/Role:** A traveler who thinks about places first, for example David (road trip) or Sophie (new to U.S. geography), plus Leo, who has low vision.
-*   **Context:** We will build this after our technology review on November 17, where we compare map libraries.
+*   **Context:** We will build this after our technology review, where we compare map libraries.
 
 ###  What Do They Want to Do with the Tool?
 *   **Primary Tasks:**
