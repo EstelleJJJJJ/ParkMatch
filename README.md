@@ -76,12 +76,15 @@ GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
 
 ## Contributors
 
+The project idea came from Peiyan and Zitong, and the four of us worked out the users, use cases
+and design together in our team discussions.
+
 | Name | GitHub | So far | Looks after from now on |
 |---|---|---|---|
-| Yucheng Jiang | @EstelleJJJJJ | repository setup and renaming, user story template, two more user stories, removed duplicate stories, UC4 use case and map component issues | [UC4](https://github.com/EstelleJJJJJ/ParkMatch/issues/11): see parks on a map |
-| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md, UC2 use case issue, README update for the new name | [UC2](https://github.com/EstelleJJJJJ/ParkMatch/issues/15): look up one park |
-| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories, UC3 use case issue, UC3 parts of the component issues and the component spec, authors and dependencies in pyproject.toml, conda.yaml | [UC3](https://github.com/EstelleJJJJJ/ParkMatch/issues/12): compare parks side by side |
-| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package, UC1 use case and first component issues | [UC1](https://github.com/EstelleJJJJJ/ParkMatch/issues/14): find parks that match what I like |
+| Yucheng Jiang | @EstelleJJJJJ | repository setup and renaming, user story template, two more user stories, removed duplicate user stories, UC4 use case and map component issues | [UC4](https://github.com/EstelleJJJJJ/ParkMatch/issues/11): see parks on a map |
+| Peiyan Xie | @peiyax | project idea (with Zitong), the first 30 user stories, removed the extra user_cases.md, UC2 use case issue, README update for the new name | [UC2](https://github.com/EstelleJJJJJ/ParkMatch/issues/15): look up one park |
+| Zitong Ren | @ari11a | project idea (with Peiyan), src folder in the class git exercise, removed duplicate user stories, UC3 use case issue, UC3 parts of the component issues and the component spec, authors and dependencies in pyproject.toml, conda.yaml | [UC3](https://github.com/EstelleJJJJJ/ParkMatch/issues/12): compare parks side by side |
+| Esa Liang | @zl1212-ship-it | use cases, specs and package (with tests and CI) written up from our team discussions, UC1 use case and first component issues | [UC1](https://github.com/EstelleJJJJJ/ParkMatch/issues/14): find parks that match what I like |
 
 From now on each of us looks after one use case: its issue, its code and tests, and its part
 of the docs. We each present our own use case in our talks, look after the shared parts (the
